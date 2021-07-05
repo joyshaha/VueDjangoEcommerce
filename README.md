@@ -1,5 +1,6 @@
 # VueDjangoEcommerce
-	At the beginning, clone the repository and navigate the root project folder from terminal, you will get two separate folder for backend-django(vue_django_ecommerce) and frontent-vue.js(vue_ecommerce)  
+	At the beginning, clone the repository and navigate the root project folder from terminal, 
+	you will get two separate folder for backend-django(vue_django_ecommerce) and frontent-vue.js(vue_ecommerce)  
 	
 # Setting up the environment(Django)
 
@@ -23,10 +24,31 @@
 # Setting up(Vue)
 
 	Normalization for every project:
-		To initialize vue.js 
-			* npm install -g @vue/cli (if didn't run yet, must apply to run any vue.js)
-		To create new project of vue manually, type the below command
-			* vue create name_of_project (optional in this repository, already created)
+	
+		Auto:
+			## Project setup
+			```
+			npm install
+			```
+
+			### Compiles and hot-reloads for development
+			```
+			npm run serve
+			```
+
+			### Compiles and minifies for production
+			```
+			npm run build
+			```
+
+			### Customize configuration
+			See [Configuration Reference](https://cli.vuejs.org/config/).
+	
+		Manual:
+			To initialize vue.js 
+				* npm install -g @vue/cli (if didn't run yet, must apply to run any vue.js)
+			To create new project of vue manually, type the below command
+				* vue create name_of_project (optional in this repository, already created)
 		
 	At VueDjangoEcommerce project:
 		Access project directory using terminal, go to vue_ecommerce, run below command in frontend project directory
